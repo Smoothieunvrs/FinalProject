@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" styleClass="" stylesheets="@../../../Style/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.DashboardClassController">
+   <children>
+      <Pane prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: #1d2c4b;" styleClass="menu-buttons">
+         <children>
+            <TableView fx:id="tableView" layoutX="500.0" layoutY="150.0" prefHeight="600.0" prefWidth="1000.0">
+               <columns>
+                  <TableColumn fx:id="courseCodeColumn" prefWidth="103.2" text="Course Code" />
+                  <TableColumn fx:id="courseNameColumn" prefWidth="99.2" text="Course Name" />
+                  <TableColumn fx:id="scheduleColumn" prefWidth="120.0" text="Schedule" />
+                  <TableColumn fx:id="semesterColumn" prefWidth="120.0" text="Semester" />
+                  <TableColumn fx:id="roomNumberColumn" prefWidth="84.8" text="Room Number" />
+                  <TableColumn fx:id="professorColumn" prefWidth="112.8" text="Professor" />
+                  <TableColumn text="Action" />
+               </columns>
+            </TableView>
+            <Label layoutX="770.0" layoutY="30.0" text="Class Schedule" textFill="#eadfc6">
+               <font>
+                  <Font name="Garamond Bold" size="72.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="900.0" prefWidth="400.0" style="-fx-background-color: #48628d;" styleClass="dashclass-bg" stylesheets="@../../../Style/style.css">
+               <children>
+                  <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" onAction="#enrollButton" prefHeight="50.0" prefWidth="200.0" text="Enroll Course">
+                     <font>
+                        <Font name="Garamond" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="100.0" layoutY="600.0" mnemonicParsing="false" onAction="#classButton" prefHeight="50.0" prefWidth="200.0" text="Class Schedule">
+                     <font>
+                        <Font name="Garamond" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="100.0" layoutY="300.0" mnemonicParsing="false" onAction="#balanceButton" prefHeight="50.0" prefWidth="200.0" text="Balance">
+                     <font>
+                        <Font name="Garamond" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="100.0" layoutY="750.0" mnemonicParsing="false" onAction="#accountButton" prefHeight="50.0" prefWidth="200.0" text="Account Settings">
+                     <font>
+                        <Font name="Garamond" size="24.0" />
+                     </font>
+                  </Button>
+                  <Pane layoutX="165.0" layoutY="217.0" prefHeight="70.0" prefWidth="70.0" styleClass="balanceicon" />
+                  <Pane layoutX="165.0" layoutY="366.0" prefHeight="70.0" prefWidth="70.0" styleClass="enrollicon" />
+                  <Pane layoutX="165.0" layoutY="516.0" prefHeight="70.0" prefWidth="70.0" styleClass="scheduleicon" />
+                  <Pane layoutX="165.0" layoutY="666.0" prefHeight="70.0" prefWidth="70.0" styleClass="accounticon" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+
+   </children>
+</AnchorPane>

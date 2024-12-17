@@ -1,0 +1,76 @@
+.login-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 100px 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.signup-bg {
+    -fx-background-image: url("../Images/signup.png");
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 270 10;
+}
+
+.signuplogo-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 150px 150px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.dashenroll-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 200px 200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.dashclass-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 200px 200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.dashbalance-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 200px 200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.dashbaccount-bg {
+    -fx-background-image: url("../Images/Logo.png");
+    -fx-background-size: 200px 200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top center;
+}
+
+.balanceicon{
+    -fx-background-image: url("../Images/balance.png");
+    -fx-background-size: 70px 70px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.enrollicon{
+    -fx-background-image: url("../Images/enroll.png");
+    -fx-background-size: 70px 70px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.scheduleicon{
+    -fx-background-image: url("../Images/schedule.png");
+    -fx-background-size: 70px 70px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.accounticon{
+    -fx-background-image: url("../Images/settings.png");
+    -fx-background-size: 70px 70px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
